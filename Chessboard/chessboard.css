@@ -1,0 +1,37 @@
+body {
+    background: #e8e7de;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  .chessboard {
+      width: 350px;
+      height: 350px;
+      margin: auto;
+      border: 5px solid #000;
+      border-radius: 2px;
+ 
+  }
+  .black {
+      float: left;
+      width: 70px;
+      height: 70px;
+      background-color: #999;
+      font-size:50px;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+  }
+  .white {
+      float: left;
+      width: 70px;
+      height: 70px;
+      background-color: #fff;
+      font-size:50px;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+  }
